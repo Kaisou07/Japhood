@@ -1,0 +1,340 @@
+html,body { margin:0; height:100%;}
+body{
+	font-family:Freestyle Script, sans-serif;
+	width:100%;	
+	background-image:url("../img/fuji.jpg");
+	background-size:cover;
+}
+#wrapper{
+	height:100%;
+	width:100%;
+	border:1px hidden #000;
+    position:relative;
+	min-height: 100%;
+	
+}
+/* Menu */
+#menu{
+	top:0px;
+	height:85px;
+	width:100%;
+	position:fixed;
+	opacity:.85;
+	background-color:#233046;
+}
+a, li, ul{
+	text-decoration:none;
+	padding:0 23px;
+	font-size:32px;
+	line-height:30px;
+	text-align:center;
+	color:#FFF;
+}
+ul{
+	list-style:none;
+}
+ul, li{
+	float:left;
+}
+p{
+	color:#C55A11;
+	margin-top:-30px;
+}
+/*Home*/
+#home{
+	margin-top:-80px;
+	margin-left:-60px;
+	height:90%;
+	width:90%;
+}
+#comidahome1{
+	width:475px;
+	height:320px;
+	margin-top:85px;
+	background-image: url("../img/comidahome1.png");
+}
+#comidahome2{
+	width:475px;
+	height:320px;
+	margin-top:-320px;
+	margin-left:475px;
+	background-image: url("../img/comidahome2.png");
+}
+#comidahome3{
+	width:475px;
+	height:320px;
+	margin-top:-320px;
+	margin-left:950px;
+	background-image: url("../img/comidahome3.png");
+}
+/*Restaurante*/
+#fundores{
+	height:830px;
+	background-color:#000;
+	opacity:.95;
+}
+#comidares1{
+	background-image: url("../img/comidares1.png");
+	width:470px;
+	height:300px;
+	margin-top:116px;
+	margin-left:20px;
+}
+#comidares2{
+	background-image: url("../img/comidares2.png");
+	width:470px;
+	height:300px;
+	margin-top:-36px;
+	margin-left:100px;
+}
+#comidares3{
+	background-image: url("../img/comidares3.png");
+	width:470px;
+	height:300px;
+	margin-top:-486px;
+	margin-left:550px;
+}
+#comidares4{
+	background-image: url("../img/comidares4.png");
+	width:470px;
+	height:300px;
+	margin-top:-36px;
+	margin-left:700px;
+}
+#comidares5{
+	background-image: url("../img/comidares5.png");
+	width:470px;
+	height:300px;
+	margin-top:-666px;
+	margin-left:950px;
+}
+#jap{
+	font-size:60px;
+	margin-top:500px;
+	margin-left:100px;
+	color:white;
+}
+#jap2{
+	font-size:60px;
+	margin-top:-130px;
+	margin-left:430px;
+	color:white;
+}
+#comidares10{
+	background-image: url("../img/comidares10.png");
+	width:500px;
+	height:330px;
+	margin-top:-30px;
+	margin-left:100px;
+}
+#txt1{
+	font-size:35px;
+	margin-top:-420px;
+	margin-left:730px;
+	color:white;
+}
+#txt10{
+	font-weight:bold;
+	font-size:35px;
+	margin-top:-440px;
+	margin-left:1000px;
+	color:white;
+}
+#txt20{
+	font-weight:bold;
+	font-size:35px;
+	margin-top:-625px;
+	margin-left:1050px;
+	color:white;
+}
+#txt30{
+	font-weight:bold;
+	font-size:35px;
+	margin-top:-640px;
+	margin-left:1100px;
+	color:white;
+}
+#txt40{
+	font-weight:bold;
+	font-size:35px;
+	margin-top:-650px;
+	margin-left:1150px;
+	color:white;
+}
+/*Reservas*/
+#reserva{
+	margin-top:150px;
+	margin-left:150px;
+	width:450px;
+	height:480px;
+	background-color:#233046;
+}
+#reserva2{
+	margin-top:-480px;
+	margin-left:750px;
+	width:450px;
+	height:480px;
+	background-color:#233046;
+}
+#rese{
+	font-weight:bold;
+	font-size:50px;
+	color:white;
+	margin-left:100px;
+}
+.aten{
+	font-weight:bold;
+	font-size:50px;
+	color:white;
+	margin-left:100px;
+	margin-top:-15px;
+}
+#bt{
+    background-color:#C55A11;
+    border:1px solid #000;
+    color:#fff;
+    font-weight:bold;
+	width:100px;
+	height:40px;
+	margin-left:170px;
+	margin-top:20px;
+}
+.form{
+	width:400px;
+	height:26px;
+	margin-left:25px;
+	margin-top:20px;
+	background-color:#233046;
+	font-family:Freestyle Script, sans-serif;
+	font-size:25px;
+}
+#msg{
+	width:400px;
+	height:66px;
+	margin-left:25px;
+	margin-top:20px;
+	background-color:#233046;
+	font-family:Freestyle Script, sans-serif;
+	font-size:25px;
+}
+/*Contato*/
+#cont{
+	margin-top:170px;
+	margin-left:160px;
+	width:1000px;
+	height:400px;	
+	background-color:#233046;
+}
+.con{
+	font-weight:bold;
+	font-size:27px;
+	color:white;
+	margin-left:100px;
+	margin-top:-5px;
+}
+#mapa{
+	width:520px;
+	height:250px;
+	background-image: url("../img/mapa.jpg");
+	margin-left:430px;
+	margin-top:-240px;
+}
+#bt2{
+    background-color:#C55A11;
+    border:1px solid #000;
+	font-size:16px;
+    color:#fff;
+    font-weight:bold;
+	width:150px;
+	height:50px;
+	margin-left:120px;
+	margin-top:-5px;
+}
+
+/* Galeria */
+
+#main-gallery {
+  width: 780px;
+  height: 505px;
+  margin:85px auto;
+  background-color: #233046;
+  border: 0px solid;
+}
+
+ #main-gallery .large-img {
+  width: 780px;
+  height: 405px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+ }
+
+ #main-gallery .large-img img {
+  max-width: 400px;
+   margin-left:190px;
+  margin-top:50px;
+  height: 300px;
+ }
+
+ #main-gallery .small-img {
+  width: 780px;
+  height: 245px;
+  background-color: #222;
+  overflow: hidden;
+ }
+
+ #main-gallery .small-img .img-holder {
+  width: 150px;
+  height: 100px;
+  margin: 10px 0px 5px 5px;
+  float: left;
+ }
+
+ #main-gallery .small-img img {
+  max-width: 150px;
+  height: auto;
+  opacity: .5;
+ }
+
+ #main-gallery .small-img img:hover {
+  opacity:1;
+ }
+
+/* Rodapé */
+#rodape{
+	height:130px;
+	width:100%;
+	opacity:.85;
+	position:fixed;
+    bottom:0px;
+	background-color:#233046;	
+}
+h1{
+	padding: 0 10px;
+	font-size:75px;
+	margin-left:475px;
+	margin-top:11px;
+}
+#logof{
+	height:150px;
+	width:150px;
+	margin-top:-40px;
+	margin-left:1100px;
+}
+#copy{
+	font-family: none;
+	font-size:20px;
+	margin-left:540px;
+	margin-top:-50px;
+}
+#apres{
+	font-size:60px;
+	margin-left:0px;
+	margin-top:-100px;
+}
+.atend{
+	font-size:30px;
+	font:bold;
+	padding:0 30px;
+}
+/* Cardapio */
